@@ -1,4 +1,4 @@
-package week02;
+package week02.operator;
 
 public class W08 {
     // 연산자의 우선순위

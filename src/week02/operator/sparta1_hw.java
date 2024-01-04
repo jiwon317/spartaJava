@@ -1,3 +1,5 @@
+package week02.operator;
+
 import java.util.Scanner;
 
 public class sparta1_hw {

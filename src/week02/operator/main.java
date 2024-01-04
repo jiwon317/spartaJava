@@ -1,3 +1,5 @@
+package week02.operator;
+
 import java.util.Arrays;
 
 public class main {

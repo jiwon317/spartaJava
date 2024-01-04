@@ -1,3 +1,5 @@
+package week02.operator;
+
 public class main2 {
     public static void main(String[] args) {
         // 변수 타입별 크기순서

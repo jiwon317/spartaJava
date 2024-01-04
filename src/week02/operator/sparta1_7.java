@@ -1,4 +1,4 @@
-// 숫자 -> 문자
+package week02.operator;// 숫자 -> 문자
 // import : im(in) +port(항구)
 
 import java.util.Scanner;

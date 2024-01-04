@@ -1,4 +1,4 @@
-
+package week02.operator;
 //클래스
 //public : (접근)제어자, public(공공의, 공통의)
 
@@ -12,8 +12,8 @@ public class Main {
 //    {} : 중괄호
 //    [] : 대괄호
 
-//    main 메서드
-//    자바 프로젝트(앱)는, 제일 먼저 클래스의 main 메서드를 실행시킨다.
+//    week02.operator.main 메서드
+//    자바 프로젝트(앱)는, 제일 먼저 클래스의 week02.operator.main 메서드를 실행시킨다.
 //    JVM의 약속
 //    static : 이 프로그램이 시작할 때 무조건 실행되는 녀석임을 표현
 
