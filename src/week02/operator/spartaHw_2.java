@@ -77,4 +77,4 @@ public class spartaHw_2 {
                 System.out.println("저장할 수 없는 자료구조입니다.");
         }
     }
-}>
+}
