@@ -2,23 +2,24 @@ package week03;
 
 public class Main {
     public static void main(String[] args) {
-        Car car1 = new Car();
-        Car[] carArray = new Car[3];
-        car1.changeGear('P');
-        carArray[0] = car1;
+        Car car = new Car(); // 객체 생성
 
-        Car car2 = new Car();
-        car2.changeGear('N');
-        carArray[1] = car2;
+        System.out.println("페달 밟기 전 car.gear = " + car.gear);
+        // 메서드 호출 및 반환값을 저장
+        double speed = car.gasPedal(100, 'D');
+        System.out.println("speed = " + speed);
 
-        Car car3 = new Car();
-        car3.changeGear('D');
-        carArray[2] = car3;
+        boolean lights = car.onOffLights();
+        System.out.println("lights = " + lights);
 
-        for (Car car: carArray) {
-            System.out.println("car.gear = " + car.gear);
-        }
+        System.out.println();
+        System.out.println("페달 밟고 난 후의 car.gear = " + car.gear);
 
-        System.out.println(car1); // week03.Car@5acf9800
+        System.out.println();
+        car.carSpeeds(100, 80);
+        System.out.println();
+        car.carSpeeds(110,120,150);
+
+
     }
 }
