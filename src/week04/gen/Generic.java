@@ -17,7 +17,7 @@ public class Generic<T> {
     public static void main(String[] args) {
         // 4.
         Generic<String> stringGeneric = new Generic<>();
-        // 5. 
+        // 5.
         stringGeneric.set("Hello World");
 
         String tValueTurnOutWithString = stringGeneric.get();
