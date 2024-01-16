@@ -8,8 +8,8 @@ public class Main {
 //                new MultiplyOperation(),
 //                new DivideOperation()
         );
-        System.out.println(calculator.calculate(10,3));
-        calculator.setOperation(new MultiplyOperation());
+        System.out.println(calculator.calculate(15,3));
+        calculator.setOperation(new AddOperation());
         System.out.println(calculator.calculate(10,3));
     }
 }
