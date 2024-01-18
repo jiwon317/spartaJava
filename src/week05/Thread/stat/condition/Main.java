@@ -14,7 +14,7 @@ public class Main {
 
     private ArrayList<String> tasks = new ArrayList<>();
 
-    
+
     // 작업 메서드
     public void addMethod(String task) {
         lock.lock(); // 임계영역 시작
